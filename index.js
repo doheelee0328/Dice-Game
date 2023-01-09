@@ -13,6 +13,8 @@ score1.textContent = "0";
 score2.textContent = "0";
 image.classList.add("hidden");
 
+// addevent listener
+
 buttonRoll.addEventListener("click", function () {
   const random = Math.trunc(Math.random() * 6) + 1;
   image.classList.remove("hidden");
