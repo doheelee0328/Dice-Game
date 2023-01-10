@@ -32,6 +32,7 @@ buttonRoll.addEventListener("click", function () {
   } else {
     // switch to the next player
     document.getElementById(`current--${activePlayer}`).textContent = 0;
+    // this changes the value
     activePlayer = activePlayer === 0 ? 1 : 0;
     score = 0;
     player1.classList.toggle("player--active");
