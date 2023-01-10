@@ -30,7 +30,7 @@ buttonRoll.addEventListener("click", function () {
     score += random;
     document.getElementById(`current--${activePlayer}`).textContent = score;
   } else {
-    // switch to the enxt player
+    // switch to the next player
     document.getElementById(`current--${activePlayer}`).textContent = 0;
     activePlayer = activePlayer === 0 ? 1 : 0;
     score = 0;
