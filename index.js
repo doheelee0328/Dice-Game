@@ -10,14 +10,6 @@ const buttonHold = document.querySelector(".btn--hold");
 const player1 = document.querySelector(".player--0");
 const player2 = document.querySelector(".player--1");
 
-/*let score = 0;
-const scores = [0,0]
-let activePlayer = 0;
-let playing = true;
-score1.textContent = "0";
-score2.textContent = "0";
-image.classList.add("hidden");*/
-
 const switchPlayer = () => {
   document.getElementById(`current--${activePlayer}`).textContent = 0;
   activePlayer = activePlayer === 0 ? 1 : 0;
